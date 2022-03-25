@@ -8,7 +8,6 @@ export default function Films() {
   useEffect(() => {
     const fetchFilmData = async () => {
       const data = await fetchFilms();
-      console.log(data);
       setFilms(data);
     };
     fetchFilmData();
