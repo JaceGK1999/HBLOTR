@@ -17,7 +17,7 @@ export default function Characters() {
   }, []);
   return (
     <div>
-      <h1>Characters from LOTR!!!</h1>
+      <h1>Characters from LOTR!!!!</h1>
       {error && <p>{error}</p>}
       {characters.map((item) => (
         <p key={item.id}>{item.name}</p>
